@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="LunchCheck">
+<head>
+	<script src="angular.min.js"></script>
+	<script src="app.js"></script>
+	<title>Coursera first task</title>
+</head>
+<body>
+	<div ng-controller="LunchCheckController">
+		My lunch:<input type="text" ng-model="items">
+		<p>{{message}}</p>
+		<button ng-click="checkQty();">Check If Too Much</button>
+	</div>
+</body>
+</html>
